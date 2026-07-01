@@ -1,0 +1,132 @@
+.body-color {
+    background-color:rgb(255, 250, 236);
+}
+
+
+.navbar{
+    color:rgb(233, 135, 154);   
+    text-decoration: none;
+    transition: 150ms;
+}
+
+.navbar:hover{
+    color:rgb(205, 36, 115);
+    transition: 150ms;
+}
+
+.normal-text{
+    text-decoration: none;
+}
+
+
+.h1-color {
+    font-size: 3rem;
+    line-height: 0.8;
+
+    color:rgb(211, 68, 109);
+}
+
+.h2-color{
+    font-size: 2rem;
+}
+
+.hr-color{
+    height: 1px;
+    border: none;
+    background-color:darksalmon;
+}
+
+.w-200{
+    width: 12rem;
+}
+
+
+.border-left{
+
+    border-left:1px solid rgb(193, 155, 159);
+}
+.border-right{
+    border-right:1px solid rgb(193, 155, 159);
+}
+
+
+.col-display {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; 
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.google-sans-text {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
+
+.google-sans-bold {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
+
+.bitcount-grid-double-header {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+.details{
+    color:rgb(193, 155, 159)
+}
+
+.skill-box {
+    border: 2px solid rgb(255, 163, 163);
+    padding: 10px;
+    border-radius: 10px;
+    
+    text-decoration: none;
+    color:black;
+
+    transition:250ms;
+}
+
+.skill-box:hover {
+    background-color:rgb(255, 163, 163);
+
+    color:aliceblue;
+
+    transition:250ms;
+}
+
+.btn-pink {
+  background-color: #ff6b6b !important;
+  border-color: #ff6b6b !important;
+  color: white !important;
+}
+
+.btn-pink:hover {
+  background-color: #ee5253 !important;
+  border-color: #ee5253 !important;
+  color: white !important;
+}
